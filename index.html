@@ -309,6 +309,19 @@ section + section::before{content:'';position:absolute;top:-1px;left:50%;transfo
 section.vis-sec + section::before,section.vis-sec::before{width:96px}
 @media(prefers-reduced-motion:reduce){.rev{opacity:1;transform:none;transition:none} section + section::before{transition:none;width:96px}}
 @media(max-width:960px){.portada h1{max-width:none}}
+/* ── ajustes 17 oct (2): para quién, flujo centrado, márgenes, espacio tras cuadro */
+.col{max-width:50em}
+h3.grande{font-size:2rem;text-align:center;margin-top:1.4em}
+h3.grande + p{text-align:center}
+dl.usos dt{font-size:1.05rem;letter-spacing:.14em}
+dl.usos dd{font-size:1.02rem;line-height:1.55}
+ol.flujo p{text-align:center}
+ol.flujo b{text-align:center}
+ol.flujo s{text-align:center}
+table.corr{margin-bottom:28px}
+table.rob{margin-top:22px}
+.tscroll{margin-bottom:26px}
+p.pie-esquema,p.pie-esquema:last-child{margin-bottom:34px}
 
 </style>
 <body>
